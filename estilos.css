@@ -64,7 +64,7 @@ html{
   .ancor-nav:hover {
     background-color: #fff;
     color: #333;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   
   .caja-buscador {
@@ -103,19 +103,54 @@ html{
     background-color: aqua;
     color: black;
   }
- 
-.contenido h1{
+
+.contenido .banner{
+    display: flex;
+    flex-direction: row;
+    background-color: #4CAF50;
+  }
+
+/* ::::::::::::ESTILOS DEL CONTENIDO:::::::::::::: */
+
+  /* Estilos  del banner */
+
+.banner h1{
   font-size: 56px;
   font-family: opensans-normal;
 }
 
-.contenido .fondo-banner{
-  display: flex;
-  flex-direction: row;
+.banner p{
+  font-size: 2rem;
+  font-family:openSans-normal;
 }
-.contenido .contenido-txt{
+
+.banner .contenido-txt{
   margin: auto;
   display: flex;
   flex-direction: column;
-  background-color: #4CAF50;
+  margin: auto;
+  height: 50rem;
+  padding-top: 100px;
 }
+
+
+.banner .img-banner{
+  height: 50rem;
+}
+
+/* Estilos */
+
+.E-learning {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Explication h2{
+  font-family: FugazOne-Regular;
+  font-size: 5rem;
+  padding: 5rem;
+  color: #4CAF50;
+}
+
